@@ -1,8 +1,6 @@
 {
   "name": "vue-starter",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -34,6 +32,12 @@
     "vue-tsc": "^1.0.24"
   },
   "eslintConfig": {
-    "extends": "@antfu"
+    "extends": "@antfu",
+    "rules": {
+      "vue/component-tags-order": ["error", {
+        "order": ["template", "script", "style"]
+      }],
+      "no-console": "off"
+    }
   }
 }
