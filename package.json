@@ -11,32 +11,38 @@
     "up": "taze major -I"
   },
   "dependencies": {
-    "@vueuse/core": "^9.12.0",
+    "@vueuse/core": "^9.13.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.35.1",
-    "@vitejs/plugin-vue": "^4.0.0",
-    "@vue-macros/volar": "^0.8.1",
-    "eslint": "^8.33.0",
+    "@antfu/eslint-config": "^0.37.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue-macros/volar": "^0.9.0",
+    "eslint": "^8.36.0",
     "less": "^4.1.3",
-    "taze": "^0.8.5",
-    "typescript": "^4.9.5",
-    "unplugin-auto-import": "^0.13.0",
-    "unplugin-vue-components": "^0.23.0",
-    "unplugin-vue-macros": "^1.7.3",
-    "vite": "^4.1.1",
-    "vite-plugin-pages": "^0.28.0",
-    "vitest": "^0.28.4",
-    "vue-tsc": "^1.0.24"
+    "taze": "^0.9.0",
+    "typescript": "^5.0.2",
+    "unplugin-auto-import": "^0.15.1",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.2.0",
+    "vite-plugin-pages": "^0.29.0",
+    "vitest": "^0.29.3",
+    "vue-tsc": "^1.2.0"
   },
   "eslintConfig": {
     "extends": "@antfu",
     "rules": {
-      "vue/component-tags-order": ["error", {
-        "order": ["template", "script", "style"]
-      }],
+      "vue/component-tags-order": [
+        "error",
+        {
+          "order": [
+            "template",
+            "script",
+            "style"
+          ]
+        }
+      ],
       "no-console": "off"
     }
   }
