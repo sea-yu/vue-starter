@@ -5,5 +5,5 @@
 
 ```shell
 npm i -g degit # 如果你之前没安装过它
-degit sea-yu/ts-starter yourProjectName
+degit sea-yu/vue-starter yourProjectName
 ```
